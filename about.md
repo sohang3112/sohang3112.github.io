@@ -13,7 +13,7 @@ I have a fair bit of knowledge about Front End Web Development (I did an interns
 
 In my free time, I love to explore new programming languages - the wierder, the better!
 Actually, that's not true - some of these amazing *new* programming languages are actually
-quite old - Haskell (I love it!), Lisp (still exploring a few dialects, such as Racket and
+quite old - Haskell (I ❤️ it!), Lisp (still exploring a few dialects, such as Racket and
 Clojure) and APL (it's *very wierd* - but it promises to amaze, so I'm sticking with it).
 
 Of course, I mostly use the boring (read: mainstream) languages - C++, Python, JavaScript.
