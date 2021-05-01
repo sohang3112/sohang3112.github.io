@@ -22,7 +22,7 @@ footer-links:
   facebook: sohang.chopra.3112
   flickr:
   github: sohang3112
-  instagram:
+  instagram: sohangchopra
   linkedin: sohang-chopra
   pinterest:
   rss: # just type anything here for a working RSS icon
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://sohang3112.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
