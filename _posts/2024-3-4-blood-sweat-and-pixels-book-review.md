@@ -22,9 +22,17 @@ But why is this true - why is video game development unique?? After all, softwar
 
 ### Stardew Valley
 
-In the book, the author talks about how many famous video games were developed. For me, one of the most memorable games I read in this book was **Stardew Valley** - because it was made full time by a solo developer Eric Barone!! To get an idea of how amazing this feat is, consider the fact that modern video games are typically developed by the effort of dozens (if not hundreds or even thousands) of people. Eric was largely inspired by the RPG game Harvest Moon (now known as Story of Seasons), which he used to play earlier and now set out to re-create its charm. *He initially set the target of finishing his game in six months - a target which turned out to be far too optimistic.* 
+In the book, the author talks about how many famous video games were developed. For me, one of the most memorable games I read in this book was *Stardew Valley* - because it was **made full time by a solo developer Eric Barone!** To get an idea of how amazing this feat is, consider the fact that modern video games are typically developed by the effort of dozens (if not hundreds or even thousands) of people. Eric was largely inspired by the RPG game Harvest Moon (now known as Story of Seasons), which he used to play earlier and now set out to re-create its charm. He initially set the target of finishing his game in six months - a target which turned out to be far too optimistic.
 
-Eric's wife Amber supported him in his efforts. Eric was working on Stardew Valley full time with no other job, so his wife Amber had to earn 
+Eric's wife Amber Hageman supported him in his efforts. Eric was working on Stardew Valley full time, so his wife Amber had to earn enough to support both of them. But Eric's initial target of six months kept growing - first by a few months, then a year, then 2 years. The main reason for this was **feature creep** - since there was nobody to hold Eric to a schedule, Eric kept putting everything he thought of in the game. Hageman and other family members started regularly asking Barone when Stardew Valley would be done. Finally after almost five years of working on the game round-the-clock with very few breaks, Eric released his game to the public on February 26, 2016. *The game proved to be a hit - in the next six months, 1.5 million copies of Stardew Valley had sold, earning Eric and his wife Amber close to 21 million dollars.*
+
+<!--
+Eric still kept working on his game fixing bugs, and finally took help from *Chucklefish* (a company that helped Eric launch his game), who assigned programmers to work on multi-media mode.
+-->
+
+<!--
+Eric kept working on Stardew Valley - fans kept filing bug reports, and Eric pulled a lot of all-nighters fixing bugs (but inadvertently triggering new bugs). Many game publishers, including Microsoft and Nvidia, approached Eric to partner with them. Eric kept working on his game - until he couldn't do it any more. One morning, halfway through 2016, Eric Barone suddenly stopped working, and finally took his long overdue break in the form of a sabbatical over the summer.
+-->
 
 <!--
 STRUCTURE
