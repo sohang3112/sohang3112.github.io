@@ -4,6 +4,8 @@ title: Blood, Sweat and Pixels (Book Review)
 subtitle: A Glimpse behind the scenes of Video Games
 ---
 
+<!-- TODO: hack Jekyll theme to also use subtitle: https://github.com/mmistakes/minimal-mistakes/issues/1733#issuecomment-402843217 -->
+
 Normally I'm quite far from the world of video games. I consider myself a nerd, but unlike most nerds, I was never a big fan of playing video games. When I was a teenager, I had a couple of video games like Counter Strike and Dirt (car racing) in my PC - but they lay unused most of the time, only to be played when my younger cousin brothers came to my house on festivals. 
 
 I have, however, always been more interested in the *process* of how video games are made. Although I haven't made any video game yet, I have tried to once when I was in school but ended up abandoning it.
