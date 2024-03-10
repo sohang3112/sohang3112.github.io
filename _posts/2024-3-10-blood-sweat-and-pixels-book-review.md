@@ -6,6 +6,8 @@ subtitle: A Glimpse behind the scenes of Video Games
 
 <!-- TODO: hack Jekyll theme to also use subtitle: https://github.com/mmistakes/minimal-mistakes/issues/1733#issuecomment-402843217 -->
 
+## A Glimpse behind the scenes of Video Games
+
 Usually I stay far away from the world of video games. I consider myself a nerd, but unlike most nerds, I was never a big fan of playing video games. When I was a teenager, I had a couple of video games like Counter-Strike and Dirt (car racing) on my PC - but they lay unused most of the time, only to be played when my younger cousin brothers came to my house on festivals. 
 
 I have, however, always been more interested in the *process* of how video games are made. Although I have yet to make any video games, I tried to once when I was in school but ended up abandoning it.
@@ -13,7 +15,7 @@ Still, I would like to make and release at least one video game sometime in the 
 
 Once, when I visited (with friends) a Video Game Fair in Delhi (the capital of India), I was very interested in the various sights, sounds and experiences of so many free games around me, many of which I tried - to this day I regret that I did not get the opportunity to play a VR (Virtual Reality) game which had quite a long line.
 
-But anyway, now to come to the main topic: a while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a very fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
+But anyway, now to come to the main topic: a while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
 
 > It’s a miracle that any game is made.
 An anonymous game developer said this to the author (Jason Schreier) during an interview with an insider to understand what video game development is like. According to the author, this sentiment is pervasive amongst all the people who have ever successfully built & sold a video game. Behind the scenes, the development story of every great video game is filled with funding getting suddenly cut, delays upon delays, developers forced to sacrifice most of their time for the game, etc.
