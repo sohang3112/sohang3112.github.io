@@ -10,6 +10,11 @@
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
+
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" />
+    {% endif %}
+
     <meta name="author" content="{{ site.name }}" />
 
     {% if page.title %}

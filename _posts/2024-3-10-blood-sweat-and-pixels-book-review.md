@@ -2,11 +2,8 @@
 layout: post
 title: Blood, Sweat and Pixels (Book Review)
 subtitle: A Glimpse behind the scenes of Video Games
+keywords: blood sweat and pixels, Jason Schreier, book review, video games, software development, programming, game development, behind the scenes, game development process, game development industry, blog
 ---
-
-<!-- TODO: hack Jekyll theme to also use subtitle: https://github.com/mmistakes/minimal-mistakes/issues/1733#issuecomment-402843217 -->
-
-## A Glimpse behind the scenes of Video Games
 
 Usually I stay far away from the world of video games. I consider myself a nerd, but unlike most nerds, I was never a big fan of playing video games. When I was a teenager, I had a couple of video games like Counter-Strike and Dirt (car racing) on my PC - but they lay unused most of the time, only to be played when my younger cousin brothers came to my house on festivals. 
 
