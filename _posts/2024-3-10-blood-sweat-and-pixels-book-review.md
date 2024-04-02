@@ -7,12 +7,7 @@ keywords: blood sweat and pixels, Jason Schreier, book review, video games, soft
 
 Usually I stay far away from the world of video games. I consider myself a nerd, but unlike most nerds, I was never a big fan of playing video games. When I was a teenager, I had a couple of video games like Counter-Strike and Dirt (car racing) on my PC - but they lay unused most of the time, only to be played when my younger cousin brothers came to my house on festivals. 
 
-I have, however, always been more interested in the *process* of how video games are made. Although I have yet to make any video games, I tried to once when I was in school but ended up abandoning it.
-Still, I would like to make and release at least one video game sometime in the future - as a Software Engineer, I at least have the skills for game development, if not design.
-
-Once, when I visited (with friends) a Video Game Fair in Delhi (the capital of India), I was very interested in the various sights, sounds and experiences of so many free games around me, many of which I tried - to this day I regret that I did not get the opportunity to play a VR (Virtual Reality) game which had quite a long line.
-
-But anyway, now to come to the main topic: a while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
+I have, however, always been more interested in the *process* of how video games are made. Although I have yet to make any video games, I would definitely like to make a video game one day 🙂. A  while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
 
 > It’s a miracle that any game is made.
 
