@@ -9,6 +9,12 @@ Usually I stay far away from the world of video games. I consider myself a nerd,
 
 I have, however, always been more interested in the *process* of how video games are made. Although I have yet to make any video games, I would definitely like to make a video game one day 🙂. A  while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
 
+<a href="https://www.amazon.in/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234" target="_blank">
+    <img src="https://m.media-amazon.com/images/I/81KFnMWdq7L._SY385_.jpg" width="255"
+         alt="Cover of book Blood, Sweat and Pixels"
+    >
+</a>
+
 > It’s a miracle that any game is made.
 
 An anonymous game developer said this to the author (Jason Schreier) during an interview with an insider to understand what video game development is like. According to the author, this sentiment is pervasive amongst all the people who have ever successfully built & sold a video game. Behind the scenes, the development story of every great video game is filled with funding getting suddenly cut, delays upon delays, developers forced to sacrifice most of their time for the game, etc.
