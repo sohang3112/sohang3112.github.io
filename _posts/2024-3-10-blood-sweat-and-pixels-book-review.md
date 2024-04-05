@@ -9,7 +9,9 @@ Usually I stay far away from the world of video games. I consider myself a nerd,
 
 I have, however, always been more interested in the *process* of how video games are made. Although I have yet to make any video games, I would definitely like to make a video game one day 🙂. A  while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
 
-<a href="https://www.amazon.in/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234" target="_blank">
+<a href="https://www.amazon.in/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234" target="_blank"
+   style="display: flex; justify-content: center">
+   <!-- TODO: above style is for centering this image. put it in a CSS class -->
     <img src="https://m.media-amazon.com/images/I/81KFnMWdq7L._SY385_.jpg" width="255"
          alt="Cover of book Blood, Sweat and Pixels"
     >
