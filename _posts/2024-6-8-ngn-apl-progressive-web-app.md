@@ -6,7 +6,7 @@ keywords: apl, programming, front end web, javascript, progressive web app, mobi
 
 Hey everyone! Recently, [my pull request (PR)](https://github.com/abrudz/ngn-apl/pull/3) to add offline Progressive Web App (PWA) capability to `ngn/apl` was accepted. I wanted to share how I went about making this open source contribution. But before we go further, feel free to check out the [`ngn/apl` website](https://abrudz.github.io/ngn-apl) - you can install it as an offline PWA app [like this](https://support.google.com/chrome/answer/9658361).
 
-For those unfamiliar, [<img src="{{ site.baseurl }}/images/apl_logo.png" width="22" alt="apl-logo"> APL](https://en.wikipedia.org/wiki/APL_(programming_language)) is a niche programming language I've recently been exploring. It’s a quirky, concise language that grows on you after a while. It’s even more concise than Python, which says a lot! 
+For those unfamiliar, [<img src="{{ site.baseurl }}/images/apl_logo.png" width="22" alt="apl-logo"> APL](https://en.wikipedia.org/wiki/APL_(programming_language)) is a niche programming language I've recently been exploring. It’s a quirky, concise language that grows on you after a while. It’s even more concise than Python, which says a lot! You can check out [my notes and APL resources](https://github.com/sohang3112/apl), which I compiled while learning APL.
 
 **Fun Fact⚡:** both NumPy and Pandas were partially inspired by APL, as it was the first array-oriented language. To get an idea of how concise APL can be, check out [Conway's Game of Life in APL](https://aplwiki.com/wiki/Conway%27s_Game_of_Life), in which one line of APL is doing work that would take a page of Python code!
 
