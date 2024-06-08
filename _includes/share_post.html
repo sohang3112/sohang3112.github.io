@@ -1,0 +1,33 @@
+{% capture url_path %}
+{{ site.url }}{{ page.url }}
+{% endcapture %}
+
+{% capture share_text %}
+Check out this insightful blog post on programming by Sohang Chopra.
+{% endcapture %}
+
+Share this post at:
+
+<a href="https://www.linkedin.com/sharing/share-offsite/?url={{ url_path }}" 
+   target="_blank">
+    <i class="svg-icon linkedin"></i>
+</a>
+
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ url_path }}" 
+   target="_blank">
+    <i class="svg-icon facebook"></i>
+</a>
+
+<a href="https://twitter.com/intent/tweet?text={{ share_text }}&url={{ url_path }}" 
+   target="_blank">
+    <i class="svg-icon twitter"></i>
+</a>
+
+<!--
+  -- TODO: first add reddit icon to _sass/_svg-icons.scss (currently it doesn't have reddit icon)
+<a href="https://www.reddit.com/r/programming/submit?url={{ url_path }}&title={{ share_text }}" 
+   target="_blank">
+    <i class="svg-icon reddit"></i>
+</a>
+-->
+
