@@ -5,9 +5,7 @@ subtitle: A Glimpse behind the scenes of Video Games
 keywords: blood sweat and pixels, Jason Schreier, book review, video games, software development, programming, game development, behind the scenes, game development process, game development industry
 ---
 
-Usually I stay far away from the world of video games. I consider myself a nerd, but unlike most nerds, I was never a big fan of playing video games. When I was a teenager, I had a couple of video games like Counter-Strike and Dirt (car racing) on my PC - but they lay unused most of the time, only to be played when my younger cousin brothers came to my house on festivals. 
-
-I have, however, always been more interested in the *process* of how video games are made. Although I have yet to make any video games, I would definitely like to make a video game one day 🙂. A  while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
+A  while ago, I came across the book [Blood, Sweat and Pixels](https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels), which is a fascinating glimpse inside the world of video game development. I am not a video game player, but I *am* a Software Engineer, so I could relate to many of the development aspects & difficulties. Especially the grind and unrealistic deadlines were relatable for me, as I have also sometimes had to work with tight deadlines, though thankfully much less than was portrayed in this book about the development of video games.
 
 <a href="https://www.amazon.in/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234" target="_blank"
    style="display: flex; justify-content: center">

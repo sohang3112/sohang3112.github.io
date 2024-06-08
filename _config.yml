@@ -15,6 +15,10 @@ avatar: https://github.com/sohang3112.png
 # Flags below are optional
 #
 
+# Content until this seperator will be used as Post Excerpt
+# Source: https://jekyllrb.com/docs/posts/#post-excerpts
+excerpt_separator: "<!--more-->"  
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
