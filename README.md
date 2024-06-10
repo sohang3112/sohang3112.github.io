@@ -11,3 +11,9 @@ The date specified in post filename is then shown at the bottom of the post like
 
 See [INSTALL.md](INSTALL.md).
 
+
+## SEO & Google Search Ranking
+
+Currently my website seems not to be indexed at all - [my blog posts don't show at all in Google search results](https://github.com/sohang3112/sohang3112.github.io/issues/3). To fix this, I'm trying steps from [this guide](https://firstsiteguide.com/blog-not-showing-in-google/):
+- [x] **Submit Sitemap:** Went to https://search.google.com/search-console/, uploaded page *google62f8e5f86bcb389e.html* to my site to verify ownership, and then submitted [my sitemap](https://sohang3112.github.io/sitemap.xml).
+- [ ] **Build Quality Links** (see heading by this name in the above guide link)
