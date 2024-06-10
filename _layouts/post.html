@@ -9,6 +9,17 @@ layout: default
      <h2>{{ page.subtitle }}</h2>
   {% endif %}
 
+  {% include older_newer_posts.html %}
+
+  <p class="like_share_comment">
+    <a href="#like_comment">
+      <img src="{{ site.baseurl }}/images/heart_outline.jpg" width="22" alt="Like/Comment">
+    </a>
+    <a href="#share-blog-post">
+      <img src="{{ site.baseurl }}/images/share_icon.png" width="22" alt="Share">
+    </a>
+  </p>
+
   <div class="entry">
     {{ content }}
   </div>
@@ -17,13 +28,15 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  <p class="share-blog-post">
+  <p id="share-blog-post">
     {% include share_post.html %}
   </p>
 
+  {% include older_newer_posts.html %}
+
   <!-- {% include disqus.html %} -->
 
-  <p style="margin: 20px 0">
+  <p id="like_comment" style="margin: 20px 0">
     <strong>Note:</strong> To like and comment on this blog post, sign in with Github. 
     Refer to the <a href="{{ site.baseurl }}/comment-with-github">how-to page</a> 
     if you encounter any issues.

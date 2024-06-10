@@ -271,7 +271,19 @@ nav {
   }
 }
 
-.share-blog-post {
+.older_newer_posts {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.like_share_comment a {
+  color: inherit;          /* remove <a> link default color */
+  text-decoration: none;   /* no underline */
+  margin: 5px;
+}
+
+#share-blog-post {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -279,6 +291,7 @@ nav {
   gap: 0 5px;
   align-items: center;
   font-size: 22px;
+  margin: 20px;
 }
 
 .wrapper-footer {
