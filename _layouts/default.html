@@ -11,6 +11,7 @@
 
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/code-icon.png">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -27,7 +28,8 @@
             <p class="site-description">
               {% if site.footer-links.github %}
                 <a href="https://github.com/{{ site.footer-links.github }}">
-                  <i class="svg-icon github"></i>
+                  <!-- Github icon from Font Awesome 6 -->
+                  <i class="fa-brands fa-github"></i>    
                 </a>
               {% endif %}
               {{ site.description }}
