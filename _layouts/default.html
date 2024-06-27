@@ -40,6 +40,10 @@
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
             <!-- <a href="{{ site.baseurl }}/comment-with-github">How to comment</a> -->
+            <i class="fa-solid fa-moon" title="Light/Dark Mode" 
+               onclick="toggleLightMode(this)" 
+               style="font-size: 1.3rem;margin: 0 20px;">
+            </i>
           </nav>
         </header>
       </div>
@@ -58,5 +62,12 @@
     </div>
 
     {% include analytics.html %}
+
+    <!-- Google AdSense - Google will automatically place ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5111500055195055"
+            crossorigin="anonymous">
+    </script>
+
+    <script src="{{ site.baseurl }}/script.js"></script>
   </body>
 </html>
