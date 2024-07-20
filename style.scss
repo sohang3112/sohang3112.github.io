@@ -271,10 +271,21 @@ nav {
   }
 }
 
+/* Always show links to Older posts at exteme left, Newer posts at extreme right */
 .older_newer_posts {
-  display: flex;
-  justify-content: space-between;
-  font-weight: bold;
+  & {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+  }
+
+  .older {
+      justify-self: start;
+  }
+    
+  .newer {
+      justify-self: end;
+  }
 }
 
 .like_share_comment a {
