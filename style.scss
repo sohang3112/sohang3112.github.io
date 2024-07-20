@@ -274,17 +274,13 @@ nav {
 /* Always show links to Older posts at exteme left, Newer posts at extreme right */
 .older_newer_posts {
   & {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
-  [rel=prev] {        /* Older posts link */
-      justify-self: start;
-  }
-    
-  [rel=next] {        /* Newer posts link */
-      justify-self: end;
+  [rel=next] {
+    position: absolute;
+    right: 0px;
   }
 }
 
