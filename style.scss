@@ -279,11 +279,11 @@ nav {
       align-items: center;
   }
 
-  .older {
+  [rel=prev] {        /* Older posts link */
       justify-self: start;
   }
     
-  .newer {
+  [rel=next] {        /* Newer posts link */
       justify-self: end;
   }
 }
