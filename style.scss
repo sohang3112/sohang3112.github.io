@@ -275,6 +275,7 @@ nav {
 .older_newer_posts {
   & {
     display: flex;
+    position: relative;
   }
 
   [rel=next] {
