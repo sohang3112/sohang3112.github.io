@@ -1,13 +1,12 @@
 <!-- dynamic variable - its value changes based on query_params input param -->
 {% capture url_path %}
-  {% assign query_params = query_params | default: "" %}     <!-- query_params: input argument -->
-  {% assign base_url = site.url | append: page.url %}    
+  {% assign query_params = query_params | default: "" %}
+  {% assign base_url = site.url | append: page.url %}
   {% if query_params %}
     {% assign full_url = base_url | append: "?" | append: query_params %}
   {% else %}
     {% assign full_url = base_url %}
   {% endif %}
-
   {{ full_url }}
 {% endcapture %}
 
