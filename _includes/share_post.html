@@ -39,16 +39,30 @@ Share this post at:
 <!-- url_path:
   -- {{ url_path }}
   -->
-<a href="https://twitter.com/intent/tweet?text={{ share_text | strip | url_encode }}&url={{ url_path | strip | url_encode}}" 
+<a href="https://twitter.com/intent/tweet?text={{ share_text | strip | url_encode }}&url={{ url_path | strip | url_encode }}" 
    target="_blank">
     <i class="svg-icon twitter"></i>
 </a>
 
-<!--
-  -- TODO: first add reddit icon to _sass/_svg-icons.scss (currently it doesn't have reddit icon)
-<a href="https://www.reddit.com/r/programming/submit?url={{ url_path }}&title={{ share_text }}" 
+<!-- Remaining rendered with Font Awesome 6 icons -->
+
+{% assign query_params = "utm_source=reddit&utm_medium=social" %}
+<a href="https://www.reddit.com/r/programming/submit?url={{ url_path | strip | url_encode }}&title={{ share_text | strip | url_encode }}" 
    target="_blank">
-    <i class="svg-icon reddit"></i>
+   <i class="fa-brands fa-reddit" style="color: red"></i>
 </a>
--->
+
+{% assign query_params = "utm_source=whatsapp&utm_medium=personal_message" %}
+<a href="https://wa.me/?text={{ share_text | append url_path | strip | url_encode }}"
+   target="_blank">
+   <i class="fa-brands fa-square-whatsapp" style="color: green"></i>
+</a>
+
+{% assign query_params = "utm_source=telegram&utm_medium=personal_message" %}
+<a href="https://t.me/share/url?url={{ url_path | strip | url_encode }}&text={{ share_text | strip | url_encode }}" 
+   target="_blank">
+   <i class="fa-brands fa-telegram" style="color: blue"></i>
+</a>
+
+
 
