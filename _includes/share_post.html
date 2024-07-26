@@ -53,7 +53,7 @@ Share this post at:
 </a>
 
 {% assign query_params = "utm_source=whatsapp&utm_medium=personal_message" %}
-<a href="https://wa.me/?text={{ share_text | append url_path | strip | url_encode }}"
+<a href="https://wa.me/?text={{ share_text | append: url_path | strip | url_encode }}"
    target="_blank">
    <i class="fa-brands fa-square-whatsapp" style="color: green"></i>
 </a>
