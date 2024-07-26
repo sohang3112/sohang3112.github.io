@@ -3,7 +3,7 @@
   {% assign query_params = query_params | default: "" %}
   {% assign base_url = site.url | append: page.url %}
   {% if query_params %}
-    {% assign full_url = base_url | append: "?" | append: query_params %}
+    {% assign full_url = base_url | append: "?" | append: query_params | uri_escape %}
   {% else %}
     {% assign full_url = base_url %}
   {% endif %}
