@@ -18,18 +18,27 @@ Check out this insightful blog post on programming by Sohang Chopra:
 Share this post at:
 
 {% assign query_params = "utm_source=linkedin&utm_medium=social" %}
+<!-- url_path:
+  -- {{ url_path }}
+  -->
 <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ url_path | strip | url_encode }}" 
    target="_blank">
     <i class="svg-icon linkedin"></i>
 </a>
 
 {% assign query_params = "utm_source=facebook&utm_medium=social" %}
+<!-- url_path:
+  -- {{ url_path }}
+  -->
 <a href="https://www.facebook.com/sharer/sharer.php?u={{ url_path | strip | url_encode }}" 
    target="_blank">
     <i class="svg-icon facebook"></i>
 </a>
 
 {% assign query_params = "utm_source=twitter&utm_medium=social" %}
+<!-- url_path:
+  -- {{ url_path }}
+  -->
 <a href="https://twitter.com/intent/tweet?text={{ share_text | strip | url_encode }}&url={{ url_path | strip | url_encode}}" 
    target="_blank">
     <i class="svg-icon twitter"></i>
