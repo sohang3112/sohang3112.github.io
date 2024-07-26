@@ -1,23 +1,36 @@
+<!-- dynamic variable - its value changes based on query_params input param -->
 {% capture url_path %}
-{{ site.url }}{{ page.url }}
+  {% assign query_params = query_params | default: "" %}     <!-- query_params: input argument -->
+  {% assign base_url = site.url | append: page.url %}    
+  {% if query_params %}
+    {% assign full_url = base_url | append: "?" | append: query_params %}
+  {% else %}
+    {% assign full_url = base_url %}
+  {% endif %}
+
+  {{ full_url }}
 {% endcapture %}
 
+<!-- static variable -->
 {% capture share_text %}
 Check out this insightful blog post on programming by Sohang Chopra: 
 {% endcapture %}
 
 Share this post at:
 
+{% assign query_params = "utm_source=linkedin&utm_medium=social" %}
 <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ url_path }}" 
    target="_blank">
     <i class="svg-icon linkedin"></i>
 </a>
 
+{% assign query_params = "utm_source=facebook&utm_medium=social" %}
 <a href="https://www.facebook.com/sharer/sharer.php?u={{ url_path }}" 
    target="_blank">
     <i class="svg-icon facebook"></i>
 </a>
 
+{% assign query_params = "utm_source=twitter&utm_medium=social" %}
 <a href="https://twitter.com/intent/tweet?text={{ share_text }}&url={{ url_path }}" 
    target="_blank">
     <i class="svg-icon twitter"></i>
