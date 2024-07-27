@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  background-color: #d9e3d5;     // light grayish blue
+  background-color: $lightGrayishBlue;     // light grayish blue
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
