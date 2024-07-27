@@ -18,12 +18,13 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
+  background-color: #d9e3d5;     // light grayish blue
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
@@ -156,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: thick solid blue;
 
   @include mobile {
     text-align: center;
@@ -237,6 +238,10 @@ nav {
   }
 }
 
+.header-tab {
+    font-weight: bold;
+}
+
 //
 // .main
 //
@@ -281,6 +286,7 @@ nav {
   [rel=next] {
     position: absolute;
     right: 0px;
+    font-weight: bold;
   }
 }
 
