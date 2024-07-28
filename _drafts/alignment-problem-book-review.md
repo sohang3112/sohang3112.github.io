@@ -2,7 +2,7 @@
 layout: post
 title: The Alignment Problem (Book Review)
 subtitle: A fascinating history of one of the biggest challenges in AI
-tags: alignment problem, ai, machine learning, software
+tags: "alignment problem", ai, "machine learning", software
 ---
 
 <!-- 

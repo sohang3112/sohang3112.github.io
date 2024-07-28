@@ -2,7 +2,7 @@
 layout: post
 title: Offline APL - Making ngn/apl a Mobile PWA
 image: /images/apl_logo.png
-tags: apl, programming, front end web, javascript, progressive web app, mobile app, open source, github
+tags: apl, programming, "front end web", javascript, "progressive web app", "mobile app", "open source", github
 ---
 
 Hey everyone! Recently, [my pull request (PR)](https://github.com/abrudz/ngn-apl/pull/3) to add offline Progressive Web App (PWA) capability to `ngn/apl` was accepted. I wanted to share how I went about making this open source contribution. But before we go further, feel free to check out the [`ngn/apl` website](https://abrudz.github.io/ngn-apl) - you can install it as an offline PWA app [like this](https://support.google.com/chrome/answer/9658361).
