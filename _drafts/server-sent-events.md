@@ -2,7 +2,7 @@
 layout: post
 title: Server Sent Events
 subtitle: Demo with Flask
-keywords: programming, http, backend, python, flask
+tags: programming, http, backend, python, flask
 ---
 
 
