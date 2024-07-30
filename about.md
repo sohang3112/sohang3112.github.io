@@ -22,3 +22,8 @@ Currently I'm mainly using Python and AWS in my role as a Software Engineer at [
 <a href="mailto:{{ site.footer-links.email }}" target="_blank">
   {{ site.footer-links.email }}
 </a>
+
+<script>
+  // Highlight "About" tab to show current location
+  document.querySelector('header-tab.about').classList.add('selected');
+</script>
