@@ -1,4 +1,4 @@
-// https://yihui.org/en/2023/09/dark-mode/
+// https://yihui.org/en/2023/09/dark-mode/ - currently not being used
 function toggleLightMode(elem) { 
     classes = elem.classList; 
     // getComputedStyle(document.body).getPropertyValue('--light-mode')  // read CSS variable

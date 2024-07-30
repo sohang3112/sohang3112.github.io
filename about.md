@@ -25,5 +25,7 @@ Currently I'm mainly using Python and AWS in my role as a Software Engineer at [
 
 <script>
   // Highlight "About" tab to show current location
-  document.querySelector('header-tab.about').classList.add('selected');
+  document.addEventListener('load', function() {
+        document.getElementById("blog-header-tab").classList.add('select');
+  });
 </script>
