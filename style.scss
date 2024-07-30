@@ -239,15 +239,13 @@ nav {
 }
 
 .header-tab {
-    & {
-      font-weight: bold;
-      padding: 10px;
-    }
+  font-weight: bold;
+  padding: 10px;
+}
 
-    .selected {
-      color: white;
-      background-color: black;
-    }
+.header-tab.selected {
+  color: white;
+  background-color: black;
 }
 
 //
