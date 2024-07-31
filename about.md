@@ -15,13 +15,13 @@ quite old - Haskell (I ❤️ it!), Lisp (still exploring a few dialects, such a
 Clojure) and APL (it's *very strange* - but it promises to amaze, so I'm sticking with it).
 
 Of course, I mostly use mainstream languages like C++, Python, JavaScript.
-Currently I'm mainly using Python and AWS in my role as a Software Engineer at [MFilterIt](https://www.mfilterit.com/).
+Currently I'm mainly using Python and AWS in my role as a Software Engineer at MFilterIt.
 
-### Contact me
-
-<a href="mailto:{{ site.footer-links.email }}" target="_blank">
-  {{ site.footer-links.email }}
-</a>
+Do check out 
+[my resume](https://sohang3112.github.io/resume/software_engineer.pdf) and 
+[GitHub](https://github.com/sohang3112/), and feel free to 
+[contact me](#contact-me)
+if your company is interested in hiring me 🙂.
 
 <script>
   // Highlight "About" tab to show current location
