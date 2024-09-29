@@ -2,6 +2,7 @@
 layout: post
 title: Server-Sent Events (SSE)
 subtitle: Demo with FastAPI server (Python)
+image: /images/server-sent-events.png
 tags: programming, http, backend, python, fastapi, server, server-sent events
 ---
 
