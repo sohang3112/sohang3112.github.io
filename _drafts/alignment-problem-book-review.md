@@ -2,8 +2,33 @@
 layout: post
 title: The Alignment Problem (Book Review)
 subtitle: A fascinating history of one of the biggest challenges in AI
-tags: "alignment problem", ai, "machine learning", software
+tags: "alignment problem", ai, robot, "machine learning", software, computer
 ---
+
+"The Alignment Problem" book explores one of the most vexing problems in AI - that the machines might not do what we want them to do. When we think about AI, the first thing that comes to mind is robots. But the fear of robots turning on its creators is ever-present in public consciousness thanks to popular movies like the Terminator series. Today AI is synonymous with Machine Learning (ML), in which we give the AI a goal and it learns to fulfill the goal. The basic reason for the alignment problem is that some tasks are so complex that we can't even precisely define the goal. So instead we give the AI a proxy goal, hoping that while learning the proxy goal, AI will learn the actual thing we want it to do. But as any dog trainer will tell you, training for one goal while hoping for another is foolishness. That's because the agents, whether a dog or AI, will *always* find a loophole in the gap between its explicit goal and the thing we actually want it to do. **This gap is the "alignment problem"**.
+
+<!-- Insert para here about examples of alignment problem: Mars rover jumping instead of walking, game AI, etc. -->
+
+As an aside, artificial neural networks (the leading Machine Learning (ML) approach today) is deeply linked to neuroscience (study of the brain). The very idea of neural networks came from a simplification of neurons in the brain - first a single layer of neurons, and then multiple layers of neurons which proved to be more general. "Artificial neurons" have only superficial similarity with real neurons but the name stuck. Despite that, neuroscientists later found artificial neural networks useful for testing theories that would be either impossible or unethical to test on a real brain.
+<!-- Add examples to above para, of artificial neural nets helping neuroscientists in testing theories -->
+So the circle was complete - now neuroscientists could study how artificial neural networks 
+behave to figure out how brains work!
+
+Alright, let's get back to the main topic. Before the alignment problem even comes up, we first need to deal with bias in input data. After all, Machine Learning (including neural networks) learns from data, so it's only as good as the data it's trained on. Or as the Computer Science people say: *garbage in, garbage out*.
+<!-- Add example of issue caused by bias in data -->
+So if bias in input data causes issues, why not just get rid of it? Indeed removing bias in data significantly improves results. For example, in face recognition, ensuring training data has diversity of racial features, and has good amount of male & female faces, boosts results significantly.
+
+First let's understand why data is biased in the first place. For that we need to look at the data source. <!-- Include trustworthy & non-trustworthy data sources --> Suppose we were to train a facial recognition system on scientists' or nobel lauraetes' faces. Men are vastly over-represented here (as women scientists find it difficult to get recognized due to sexism), so the model would be inherently flawed.
+
+In this case we have managed to solve the data bias problem to some extent by curating data. But in general, the core issue is that *the real world itself is biased* (eg. sexism, racism, etc. <!-- Elaborate -->). We might try to instead modify the model itself to remove bias instead of data. One example where it was tried is in Word2Vec. **Word2Vec** is an ML system that allows words to be encoded as *vectors* that have a rudimentary understanding of human language. It allows asking things like "king - man + woman" and get output "queen". It's the foundational basis for modern marvels like ChatGPT. 
+
+Scientists tried to find a "bias" component in words encoded as vectors. Eg. the vector "woman - man" approximately represents gender / sex. So researchers tried simply removing this component from word vectors to make the system ignore gender. But this caused 2 issues:
+1. Removing the gender dimension explicitly didn't help because the model could still infer gender easily via combinations of other available information. <!-- What's technical term for this? --> For example, a nurse is statistically more likely to be a woman. So the bias in model didn't go away - we simply made it harder to detect.
+2. Another issue is that sometimes this component is *needed*. For example in medical diagonisis, the gender component is required because men & women have different physiologies. "Gender-neutral" medicine can be worse, especially for women (in case of gender-specific diseases), since male physiology and diseases are studied more due to sexism.
+
+Let's get back to trying to get unbiased data. The real world is full of bias, and neural networks require enormous data to learn. Eg. ChatGPT and other Large Language Models (LLM) are trained on trillions of data points (sourced from books, internet websites, etc.). At that scale, manually curating data to remove bias is an impossible task - and automated ways of data cleaning will always miss something (eg. a naive system could miss slangs in text).
+
+A lot more can be discussed about data bias, but for now let's get back to the alignment problem.
 
 <!-- 
 OUTLINE
